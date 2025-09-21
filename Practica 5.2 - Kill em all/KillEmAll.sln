@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KillEmAll", "MotorKillEmAll\KillEmAll.csproj", "{6C7AAAC9-FC2F-4437-AA05-91121C8095BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KillEmAllGrafico", "KillEmAllGrafico\KillEmAllGrafico.csproj", "{065C93F5-FDD8-4BB0-9D7F-4FBA83DBF4E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C7AAAC9-FC2F-4437-AA05-91121C8095BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7AAAC9-FC2F-4437-AA05-91121C8095BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7AAAC9-FC2F-4437-AA05-91121C8095BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7AAAC9-FC2F-4437-AA05-91121C8095BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065C93F5-FDD8-4BB0-9D7F-4FBA83DBF4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065C93F5-FDD8-4BB0-9D7F-4FBA83DBF4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065C93F5-FDD8-4BB0-9D7F-4FBA83DBF4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065C93F5-FDD8-4BB0-9D7F-4FBA83DBF4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B45D090-A3EA-4463-AB01-FD49AD69473F}
+	EndGlobalSection
+EndGlobal

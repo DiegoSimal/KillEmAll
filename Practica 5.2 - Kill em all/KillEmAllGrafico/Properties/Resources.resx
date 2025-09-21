@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cono de vision" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\cono de vision.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soloMovimiento0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\smiley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (100)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (100).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (101)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (101).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (102)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (102).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (103)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (103).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (104)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (104).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (105)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (105).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (106)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (106).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (107)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (107).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (108)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (108).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (109)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (109).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (110)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (110).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (111)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (111).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (112)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (112).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (113)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (113).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (114)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (114).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (115)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (115).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (116)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (116).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (117)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (117).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (118)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (118).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (119)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (119).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (120)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (120).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (121)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (121).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (122)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (122).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (123)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (123).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (124)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (124).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (125)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (125).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (126)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (126).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (127)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (127).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (128)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (128).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (129)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (129).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (130)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (130).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (131)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (131).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (132)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (132).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (133)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (133).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (134)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (134).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (135)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (135).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (136)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (136).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (137)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (137).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (138)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (138).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (139)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (139).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (140)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (140).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (141)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (141).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (142)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (142).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (143)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (143).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (144)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (144).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (145)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (145).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (146)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (146).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (147)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (147).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (148)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (148).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (149)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (149).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (150)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (150).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (151)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (151).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (152)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (152).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (153)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (153).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (154)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (154).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (155)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (155).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (156)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (156).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (157)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (157).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (158)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (158).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (159)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (159).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (160)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (160).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (161)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (161).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (162)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (162).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (163)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (163).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (164)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (164).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (165)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (165).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (166)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (166).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (167)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (167).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (168)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (168).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (169)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (169).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (170)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (170).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (171)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (171).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (172)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (172).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (173)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (173).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (174)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (174).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (175)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (175).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (176)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (176).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (177)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (177).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (178)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (178).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (179)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (179).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (180)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (180).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (181)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (181).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (182)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (182).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (183)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (183).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (184)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (184).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (185)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (185).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (186)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (186).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (187)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (187).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (188)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (188).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (189)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (189).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (190)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (190).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (191)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (191).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (192)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (192).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (193)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (193).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (194)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (194).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (195)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (195).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (196)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (196).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (197)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (197).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (198)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (198).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (199)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (199).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (200)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (200).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (201)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (201).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (202)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (202).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (203)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (203).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (204)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (204).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (205)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (205).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (206)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (206).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (207)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (207).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (208)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (208).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (209)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (209).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (210)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (210).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (211)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (211).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (212)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (212).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (213)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (213).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (214)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (214).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (215)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (215).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (216)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (216).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (217)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (217).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (218)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (218).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (219)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (219).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (22)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (220)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (220).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (221)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (221).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (222)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (222).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (223)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (223).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (224)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (224).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (225)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (225).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (226)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (226).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (227)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (227).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (228)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (228).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (229)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (229).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (23)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (230)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (230).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (231)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (231).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (232)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (232).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (233)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (233).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (234)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (234).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (235)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (235).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (236)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (236).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (237)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (237).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (238)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (238).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (239)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (239).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (240)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (240).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (241)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (241).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (242)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (242).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (243)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (243).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (244)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (244).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (245)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (245).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (246)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (246).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (247)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (247).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (248)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (248).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (249)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (249).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (25)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (250)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (250).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (251)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (251).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (252)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (252).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (253)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (253).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (254)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (254).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (255)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (255).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (256)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (256).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (29)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (29).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (30).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (31)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (33)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (33).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (34).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (35)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (35).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (36)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (37)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (37).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (38)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (38).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (39)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (39).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (40)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (40).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (41)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (41).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (42)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (42).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (43)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (43).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (44)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (44).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (45)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (45).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (46)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (46).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (47)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (47).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (48)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (48).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (49)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (49).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (50)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (50).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (51)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (51).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (52)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (52).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (53)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (53).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (54)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (54).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (55)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (55).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (56)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (56).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (57)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (57).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (58)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (58).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (59)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (59).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (60)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (60).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (61)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (61).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (62)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (62).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (63)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (63).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (64)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (64).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (65)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (65).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (66)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (66).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (67)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (67).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (68)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (68).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (69)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (69).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (70)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (70).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (71)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (71).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (72)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (72).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (73)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (73).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (74)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (74).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (75)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (75).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (76)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (76).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (77)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (77).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (78)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (78).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (79)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (79).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (80)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (80).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (81)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (81).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (82)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (82).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (83)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (83).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (84)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (84).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (85)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (85).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (86)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (86).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (87)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (87).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (88)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (88).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (89)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (89).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (90)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (90).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (91)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (91).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (92)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (92).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (93)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (93).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (94)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (94).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (95)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (95).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (96)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (96).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (97)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (97).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (98)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (98).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spritesheet (99)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spritesheet (99).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
